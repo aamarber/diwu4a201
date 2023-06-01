@@ -1,0 +1,27 @@
+body {
+    background-color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container section:not(.column),
+.container-fluid section:not(.column) {
+    border: solid 1px black;
+    background-color: white;
+    text-align: center;
+}
+
+.bcde-container{
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+
+@media (min-width: 992px) {
+    #E{
+        height: 16em;
+        
+        position: absolute;
+        right: 0;
+        top: 0;
+    }   
+}
