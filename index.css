@@ -1,0 +1,23 @@
+body {
+    background-color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    height: 50vh;
+    width: 50%;
+    margin: auto;
+}
+
+.container section:not(.column) {
+    border: solid 1px black;
+    background-color: white;
+    text-align: center;
+    padding: 1rem;
+    margin: 1em;
+
+    /* To align text in the middle */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
